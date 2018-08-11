@@ -1,0 +1,89 @@
+
+
+
+
+
+
+/*
+===============================
+ 			custom css style 
+===============================
+
+*/
+
+
+
+.logo img{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding:0px;
+}
+
+
+
+
+/*search option */
+
+.has-search.form-control{
+	padding-left: 60px 0px;
+}
+
+.has-search i {
+	position: absolute;
+	z-index: 99;
+	pointer-events: none;
+	display: block;
+	text-align: center;
+	line-height: 250%;
+	color: #aaa;
+	width: 2.375rem;
+	height: 2.375rem;
+}
+
+
+
+.form-control.int{
+	padding: 0px 0px 0px 38px;
+	font-size: 14px;
+	font-style: normal;
+}
+
+
+/*menu option */
+
+.main-navbar {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.main-navbar li {
+	list-style: none;
+	float: left;
+	padding: 0px 0px 0px 30px;
+}
+
+.main-navbar li img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+
+}
+
+
+
+/*main menu */
+
+
+.bg-light{
+	background: none !important
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+}
+
+.dropdown>.dropdown-toggle:active{
+	pointer-events: none;
+
+}
